@@ -109,7 +109,7 @@ public class HomeActivity extends AppCompatActivity
         } else if (id == R.id.nav_fav) {
             FragmentManager fm = getSupportFragmentManager();
             FavouriteList alertdFragment = new FavouriteList();
-            alertdFragment.show(fm, "Favourite List");
+            alertdFragment.show(fm, "FavouriteList");
 
         } else if (id == R.id.nav_share) {
 
